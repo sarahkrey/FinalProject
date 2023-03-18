@@ -1,0 +1,184 @@
+*
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+h1{
+   display:flex;
+   justify-content: center;
+   font-family: 'Lobster', cursive;
+   font-size: 9rem;
+   color: black;
+   margin: 5rem auto auto auto;
+}
+h2{
+    display:flex;
+    justify-content:  start;
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    color: black;
+    margin: 0 auto auto .5rem;
+    line-height: 2.75rem;
+    padding: 2rem 0 2rem 0;
+ }
+.login{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff; 
+    margin: .5rem auto auto auto;
+    padding: 2rem;
+    width: 20rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+#Uname{
+    width: 40rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+    margin: 1rem auto .5rem auto;
+    background-color: #fff9e9;
+    border: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+}
+#Pass{
+    width: 40rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+    border: none;
+    margin: .5rem auto .5rem auto;
+    background-color: #fff9e9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+}
+#log{
+    width: 30rem;
+    height: 3rem;
+    margin: 3rem auto auto auto;
+    border-radius: 50rem;
+    border: none;
+    background-color: #fdf1ce;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+.checkbox{
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1rem auto auto auto;
+}
+#forgot{
+    margin: 1rem auto auto auto;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    color: black;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#signup{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    color: black;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.navbar{ 
+    list-style-type: none;
+    margin: 0rem;
+    padding: 0rem;
+    width: 14rem;
+    background-color: white;
+    height: 100rem;
+    border-right: .25rem solid black;
+    left: 0rem;
+}
+ul{
+    list-style-type: none;
+    margin: 0rem;
+    padding: 0rem;
+}
+button{
+    width: 14rem;
+    height: 4rem;
+    background-color: white;
+    border: none;
+    font-size: 1.5rem;
+    border-top: .1rem solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+button:hover{
+    background-color: rgb(240, 238, 238);
+}
+.month{
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    text-transform:uppercase;
+    text-align: center;
+    background-color:rgb(199, 211, 199);  
+    margin: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.calendar{
+    width: 50rem;
+    height: 70rem;
+    background-color: white;
+    position: absolute;
+    top: 5rem;
+    left: 20rem;
+    border-radius: .5rem;
+    border: .5rem solid black;
+}
+.grid{
+    display: inline-grid;
+
+}
+.weekdays{
+    margin:0;
+}
+.weekdays li{
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1rem;
+    
+}
+.notes{
+    height: 63rem;
+    width: 17rem;
+    background-color:rgb(199, 211, 199);
+    top: 5rem;
+    left: 75rem;
+    position: absolute;
+    border-radius: .5rem;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.grid{
+    display:grid;
+    padding: 1rem auto auto 1auto;
+    margin: 1rem auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 11.5rem;
+}
