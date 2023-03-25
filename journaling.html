@@ -8,43 +8,60 @@
     <link rel="stylesheet" href="finalproject.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    
 </head>
 <body>
-    <div class="navbar">
-    <ul>
-        <li>
-            <h2>Simply Scheduled</h2>
-        </li>
-        <div clas="navbar">
-        <li>
-            <a href="home.html" class="home">
-                <button>Home</button>
-            </a>
-        </li>
-        <li>
-            <a href="journaling.html" class="Journaling">
-                <button>Journaling</button>
-            </a>
-        </li>
-        <li>
-            <a href="notes.html" class="Notes">
-                <button>Notes</button>
-            </a>
-        </li>
-        <li>
-            <a href="mealplanning.html" class="Meal Planning">
-                <button>Meal Planning</button>
-            </a>
-        </li>
-        <li>
-            <a href="budgeting.html" class="Budgeting">
-                <button>Budgeting</button>
-            </a>
-        </li>
-        <li>
-            <a href="todo.html" class="To-Do">
-                <button>To-Do</button>
-            </a>
-        </li>
-    </div>
+<div class="navbar">
+        <ul>
+            <li>
+                <h2>Simply Scheduled</h2>
+            </li>
+            <li>
+                <a href="home.html" class="home">
+                    <button class="nav">Home</button>
+                </a>
+            </li>
+            <li>
+                <a href="journaling.html" class="Journaling">
+                    <button class="nav">Journaling</button>
+                </a>
+            </li>
+            <li>
+                <a href="notes.html" class="Notes">
+                    <button class="nav">Notes</button>
+                </a>
+            </li>
+            <li>
+                <a href="mealplanning.html" class="Meal Planning">
+                    <button class="nav">Meal Planning</button>
+                </a>
+            </li>
+            <li>
+                <a href="budgeting.html" class="Budgeting">
+                    <button class="nav">Budgeting</button>
+                </a>
+            </li>
+            <li>
+                <a href="todo.html" class="To-Do">
+                    <button class="nav">To-Do</button>
+                </a>
+            </li>
+        </ul>
+</div>
+<main id="Journal">
+    <button class="btn">Add Entry</button>
+    <form style="display: none">
+    <div class="form-control">
+    <p class="date">Date:<input type="date" id="date" name="date"></p>
+    <p class="title">Title:<input type="text" id="title" name="title"></p>
+    <textarea name="journaltextbox" style="width:67rem;height:23rem; margin: auto 1.2rem; resize:none;"></textarea>
+    <a href="#" id="AddPhoto">
+        <input type="button" name="AddPhoto" id="photo" value="Add Photo"></a>
+    <input type="button" name="Save" id="save" value="Save">
+</div>
+</form>
+</main>
+<script src="finalproject.js"></script>
+</body>

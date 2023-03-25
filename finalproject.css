@@ -37,7 +37,7 @@ h2{
     height: 2.5rem;
     border-radius: .5rem;
     margin: 1rem auto .5rem auto;
-    background-color: #fff9e9;
+    background-color:  #fdfddf;
     border: none;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.1rem;
@@ -48,7 +48,7 @@ h2{
     border-radius: .5rem;
     border: none;
     margin: .5rem auto .5rem auto;
-    background-color: #fff9e9;
+    background-color: #fdfddf;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.1rem;
 }
@@ -58,11 +58,12 @@ h2{
     margin: 3rem auto auto auto;
     border-radius: 50rem;
     border: none;
-    background-color: #fdf1ce;
+    background-color: rgb(253, 247, 195);
     display: flex;
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5rem;
+    cursor: grab;
 }
 .checkbox{
     display: flex;
@@ -104,7 +105,7 @@ ul{
     margin: 0rem;
     padding: 0rem;
 }
-button{
+.nav{
     width: 14rem;
     height: 4rem;
     background-color: white;
@@ -116,6 +117,7 @@ button{
 }
 button:hover{
     background-color: rgb(240, 238, 238);
+    cursor: grab;
 }
 .month{
     color:black;
@@ -132,7 +134,7 @@ a{
 }
 .calendar{
     width: 50rem;
-    height: 70rem;
+    height: 45rem;
     background-color: white;
     position: absolute;
     top: 5rem;
@@ -155,11 +157,10 @@ a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
     color: black;
-    font-size: 1rem;
-    
+    font-size: 1rem; 
 }
-.notes{
-    height: 63rem;
+.ImportantDates{
+    height: 50rem;
     width: 17rem;
     background-color:rgb(199, 211, 199);
     top: 5rem;
@@ -168,7 +169,7 @@ a{
     border-radius: .5rem;
     color:black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
 }
@@ -180,5 +181,112 @@ a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2rem;
     text-align: center;
-    line-height: 11.5rem;
+    line-height:7.5rem;
 }
+.grid-item{
+    border-radius: 50%;
+    border: none;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 8rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    background-color: rgb(218, 201, 205);
+    position: absolute;
+    top: 5rem;
+    left: 20rem;
+    height: 5rem;
+    width: 18rem;
+    border: black .15rem solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    cursor: grab;
+    
+}
+#date{
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:rgb(231, 220, 223);
+    margin: 1rem;
+    top: .5rem;
+}
+.date{
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    margin: 1rem;
+    top: .5rem;
+}
+.form-control{
+        background-color: rgb(218, 201, 205);
+        height: 34rem;
+        width: 70rem;
+        position: absolute;
+        top:12rem;
+        left:20rem;
+        border-radius: 1rem;
+        border: black .15rem solid;
+}
+.title{
+    position: absolute;
+    top: .5rem;
+    left: 50rem;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+#title{
+    width: 12rem;
+    height: 1.6rem;
+    margin: auto auto auto .5rem;
+    background-color: rgb(231, 220, 223);
+    border: .15rem black solid;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+}
+#journaltextbox{
+    background-color: white;
+
+}
+#photo{
+    background-color: rgb(231, 220, 223);
+    position: relative;
+    height: 2.5rem;
+    width: 10rem;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.15rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    cursor: grab;
+    top: .3rem;
+    left: 47.5rem;
+    border: black .12rem solid;
+}
+#save{
+    background-color: rgb(231, 220, 223);
+    position: relative;
+    height: 2.5rem;
+    width: 10rem;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.15rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    cursor: grab;
+    top: .3rem;
+    left: 48rem;
+    border: black .12rem solid;
+}
+
+
